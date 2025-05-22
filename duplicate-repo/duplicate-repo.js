@@ -1,8 +1,8 @@
 require('dotenv').config();
 const axios = require('axios');
 
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const SOURCE_REPO = process.env.SOURCE_REPO;
+const GITHUB_TOKEN = process.env.GitHub Personal Access Token
+const SOURCE_REPO = process.env.scarlig-intern-repo;
 const DEST_REPOS = JSON.parse(process.env.DEST_REPOS);
 
 if (!GITHUB_TOKEN || !SOURCE_REPO || !DEST_REPOS) {
